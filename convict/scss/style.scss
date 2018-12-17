@@ -19,5 +19,155 @@ blog etc )
 8) Widgets
 9) IE 8 Support (opcional)
 * */
+
 /* 1 Variables
 ----------------------------------------------------------------------------- */
+
+$nalogoFamily: "Black Ops One", cursive;
+$natitleFamily: "Staatliches", cursive;
+$nafontFamily: "Ubuntu", sans-serif;
+$naBgColorDefault: #1f1e31;
+$naPrimary: #d8f16d;
+$naSecundary: #2f39a2;
+$naComplement: #ff303c;
+$naLight: #e4e7f1;
+$naDark: gray;
+$naWhite: white;
+$naBlack: black;
+$naSuccess: #00be4e;
+
+/* 2 Typography
+----------------------------------------------------------------------------- */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: $nafontFamily;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #666666;
+  background-color: $naBgColorDefault;
+}
+
+p {
+  color: $naWhite;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-family: $nalogoFamily;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: $naPrimary !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $natitleFamily;
+}
+
+h1 {
+  color: $naWhite;
+  padding-left: 10px;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+h2 {
+  color: $naSecundary;
+  padding-left: 10px;
+  font-size: 26px;
+  margin-top: -8px;
+}
+h3 {
+  font-size: 20px;
+  color: $naSecundary;
+}
+
+ul li {
+  list-style: none;
+  color: $naWhite;
+}
+
+a {
+  color: $naWhite;
+  text-decoration: none;
+}
+a:hover {
+  color: $naWhite;
+}
+
+ul li a i {
+  color: $naComplement;
+}
+
+/* 3 Layout
+----------------------------------------------------------------------------- */
+.convict-tumbnail-xs {
+  max-width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.convict-tumbnail-md {
+  max-width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.convict-tumbnail-xl {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.tracing-xs {
+  padding: 10px;
+}
+.tracing-xs h4 {
+  font-size: 14px;
+}
+.tracing-xs p {
+  font-size: 12px;
+}
+
+.box-tracing a {
+  color: $naComplement;
+  font-family: $nafontFamily;
+}
+.status {
+  font-family: $natitleFamily;
+  color: $naSuccess;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.more-info {
+  color: $naComplement;
+  margin-left: 5px;
+}
+.title-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.title-info i {
+  color: $naSecundary;
+  margin-bottom: 4px;
+}
+.title-info h3 {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.title-info span > a {
+  font-size: 14px;
+  word-spacing: -2px;
+}
+
+.body-info {
+  padding-left: 40px;
+}

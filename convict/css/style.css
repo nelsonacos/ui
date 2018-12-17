@@ -21,4 +21,155 @@ blog etc )
 * */
 /* 1 Variables
 ----------------------------------------------------------------------------- */
+/* 2 Typography
+----------------------------------------------------------------------------- */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #666666;
+  background-color: #1f1e31;
+}
+
+p {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-family: "Black Ops One", cursive;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #d8f16d !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Staatliches", cursive;
+}
+
+h1 {
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+h2 {
+  color: #2f39a2;
+  padding-left: 10px;
+  font-size: 26px;
+  margin-top: -8px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #2f39a2;
+}
+
+ul li {
+  list-style: none;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+ul li a i {
+  color: #ff303c;
+}
+
+/* 3 Layout
+----------------------------------------------------------------------------- */
+.convict-tumbnail-xs {
+  max-width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.convict-tumbnail-md {
+  max-width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.convict-tumbnail-xl {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tracing-xs {
+  padding: 10px;
+}
+
+.tracing-xs h4 {
+  font-size: 14px;
+}
+
+.tracing-xs p {
+  font-size: 12px;
+}
+
+.box-tracing a {
+  color: #ff303c;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.status {
+  font-family: "Staatliches", cursive;
+  color: #00be4e;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.more-info {
+  color: #ff303c;
+  margin-left: 5px;
+}
+
+.title-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8px;
+}
+
+.title-info i {
+  color: #2f39a2;
+  margin-bottom: 4px;
+}
+
+.title-info h3 {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.title-info span > a {
+  font-size: 14px;
+  word-spacing: -2px;
+}
+
+.body-info {
+  padding-left: 40px;
+}
 /*# sourceMappingURL=style.css.map */
